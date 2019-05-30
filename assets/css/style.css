@@ -63,6 +63,12 @@ p{
   padding: 30px 0;
 }
 
+/*Footer Styles*/
+  footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
 /*form styles*/
 
 label {
@@ -79,10 +85,12 @@ label {
 
 input[type="email"] {
   flex-grow: 2;
+  height: 8vh;
   margin-right: 2rem;
 }
 
 input[type="submit"] {
+  font-size: 0.8em;
   flex-grow: 1;
   color: white;
   background-color:hsl(163, 95%, 43%)
